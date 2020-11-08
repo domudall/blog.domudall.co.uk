@@ -1,0 +1,18 @@
+baseURL = "http://blog.domudall.co.uk/"
+languageCode = "en-gb"
+title = "Dom Udall"
+theme = "hugo-bearblog"
+copyright = "Copyright © 2020, Dom Udall"
+
+[permalinks]
+  blog = "/:slug/"
+  tags = "/blog/:slug"
+
+[params]
+  hideMadeWithLine = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about-me/"
