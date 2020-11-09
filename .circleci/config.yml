@@ -17,6 +17,7 @@ workflows:
   main:
     jobs:
       - hugo/build:
+          html-proofer: false
           version: '0.68'
       - deploy:
           filters:
