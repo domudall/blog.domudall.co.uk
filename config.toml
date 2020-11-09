@@ -4,6 +4,8 @@ title = "Dom Udall"
 theme = "hugo-bearblog"
 copyright = "Copyright © 2020, Dom Udall"
 
+enableRobotsTXT = true
+
 [permalinks]
   blog = "/:slug/"
   tags = "/blog/:slug"
