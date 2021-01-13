@@ -1,4 +1,3 @@
-baseURL = "http://blog.domudall.co.uk/"
 languageCode = "en-gb"
 title = "Dom Udall"
 theme = "hugo-bearblog"

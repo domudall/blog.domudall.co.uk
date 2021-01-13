@@ -1,2 +1,6 @@
 [build.environment]
   HUGO_VERSION = "0.77.0"
+
+[build]
+publish = "public"
+command = "hugo -b $URL"
